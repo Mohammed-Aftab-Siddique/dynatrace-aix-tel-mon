@@ -8,7 +8,7 @@ To configure the script, you'll need to specify the following parameters:
 - `DT_TENANT_URL` - Dynatrace tenant URL with environment ID.
 - `DT_API_TOKEN` - Dynatrace PAAS token with Ingest.Metrics permission.
 - `HOST_IP` - The host ip of the source.
-- `TARGET_FILE=` - Absolute path of the file which contains a list of targets.
+- `TARGET_FILE` - Absolute path of the file which contains a list of targets.
 - `TIMEOUT` - Timeout in seconds (INTEGER).
 - `Metric Name` - Metric name to be configured in the payload (recommended format: custom.app_name...)
 
